@@ -10,6 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options, service=Service(ChromeDriverManager().install()))
+
 driver.maximize_window()
 driver.implicitly_wait(10)  # Wait up to 10 seconds
 driver.get("https://demo.nopcommerce.com/")
