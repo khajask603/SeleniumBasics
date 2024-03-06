@@ -7,6 +7,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 options=webdriver.ChromeOptions()
 options.add_experimental_option("detach",True)
 driver=webdriver.Chrome(options=options, service=Service(ChromeDriverManager().install()))
+
+
+
 options.add_argument("--disable-notifications")
 driver.maximize_window()
 driver.implicitly_wait(10)
