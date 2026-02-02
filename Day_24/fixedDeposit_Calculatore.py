@@ -28,7 +28,7 @@ if driver.find_elements(By.CSS_SELECTOR, ".wzrk-alert"):
     decline_button.click()
 
 file=r"F:\Python & Selenium by pavan sir\SeleniumDDT Practise notes\caldata.xlsx"
-Rows=XLuTils.getRowCount(file,"Sheet1")
+Rows=XLUTils.getRowCount(file,"Sheet1")
 
 for r in range(2,Rows+1):
 #Reading data from excel

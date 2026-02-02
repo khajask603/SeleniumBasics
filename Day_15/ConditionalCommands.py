@@ -21,7 +21,7 @@ print(rB1.is_selected())     #False Expected
 print(rB2.is_selected())     #False Expected
 rB3=driver.find_element(By.XPATH,"//input[@value='radio3']")
 rB3.click()
-print(rB3.is_selected(),"Ration button Is Selected")
+print(rB3.is_selected(),"Radio button Is Selected")
 #Checkbox,--Selected,enabled,displayed
 cKBox=driver.find_element(By.CSS_SELECTOR,"#checkBoxOption2")
 print("Check Box is Displayed :-",cKBox.is_displayed())

@@ -18,6 +18,8 @@ dD=Select(ddElemnt)
 # dD.select_by_value('france')
 dD.select_by_index(5)          #Australia
 # print(ddElemnt.text) #-->it will ghive avilable names list by printing
+
+
 # Retrieving the selected option text
 selected_option = dD.first_selected_option.text
 print(selected_option) #-->it will give seleced names list by printing
@@ -25,6 +27,7 @@ print(selected_option) #-->it will give seleced names list by printing
 # capture all the options and print them-----------------------
 # Using OptionsMehtod to exteracxt text
 allOptions=dD.options
+print("-----------------------------------------------------------------------------------")
 print("Total Number of Options",len(allOptions))      #---->10
 
 
